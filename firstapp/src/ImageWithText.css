@@ -1,0 +1,43 @@
+/* ImageWithText.css */
+.image-with-text-container {
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 40px;
+  }
+  
+  .image-container img {
+    max-width: 350px;
+    height: 150px;
+  }
+  
+  .text-container {
+    margin-left: 20px;
+    font-size: 10px;
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #777;
+  }
+  
+  .expense-text {
+    color: #e74c3c; /* Red color for expense text */
+  }
+  
+  .income-text {
+    color: #27ae60; /* Green color for income text */
+  }
+  

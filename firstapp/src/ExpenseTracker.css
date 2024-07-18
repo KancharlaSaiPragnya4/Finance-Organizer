@@ -1,0 +1,172 @@
+/* ExpenseTracker.css */
+.expense-tracker-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+    height: 300ppx;
+    font-size: 25px;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    transition: background-color 0.3s;
+  }
+  
+  .tab:hover {
+    background-color: #ddd;
+  }
+  
+  .tab.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .form-container {
+    width: 300px;
+    padding: 20px;
+    
+  }
+  
+  .dashboard-container {
+    /* Your dashboard styles go here */
+  }
+  /* ExpenseTracker.css */
+
+.chart-container {
+  width: 70%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chart-container canvas {
+  display: block;
+  margin: auto;
+}
+/* ExpenseTracker.css */
+
+/* ExpenseTracker.css */
+
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.balance-container {
+  background-color:dodgerblue; /* Blue color, you can change this to your preferred color */
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  height: 100px;
+  width: 400px;
+}
+
+.Font {
+  font-size: 25px;
+  font-weight: bold;
+  color:black; /* White text color, you can customize this */
+}
+/* In your ExpenseTracker.css file or style section */
+.dashboard-container {
+  background-image: url('C:\Users\saipr\OneDrive\Desktop\dashboard\firstapp\public\image4.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Adjust the height as needed */
+  /* Add other styles as necessary */
+}
+
+/* Additional styles for other components in your dashboard */
+/* For example, to style the balance-container */
+.balance-container {
+  background-color:white; /* Add a semi-transparent black background */
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  height: 100px;
+  width: 250px;
+  /* Add other styles as necessary */
+}
+.form-container{
+  background-image: url('C:\Users\saipr\OneDrive\Desktop\dashboard\firstapp\public\image2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Adjust the height as needed */
+  width: 900px;
+ }
+ .Lform-container{
+  background-image: url('C:\Users\saipr\OneDrive\Desktop\dashboard\firstapp\public\image1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Adjust the height as needed */
+  width: 900px;
+ }
+ .hello1{
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color:#333;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  width: 400px;
+ }
+ .hello2{
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color:#333;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  width: 400px;
+ }
+ .dashboard{
+  font-size: 38px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logout-button {
+    margin-top: auto; /* Push the button to the bottom */
+    margin-bottom: 20px; /* Add some additional space below the button */
+  }
+  .financial-goal-container {
+    background-image: url('C:\Users\saipr\OneDrive\Desktop\dashboard\firstapp\public\image4.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust the height as needed */
+    /* Add other styles as necessary */
+  }
+  .over-budget {
+    color: orange;
+    font-weight: bold;
+  }

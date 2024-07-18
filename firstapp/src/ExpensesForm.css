@@ -1,0 +1,140 @@
+/* ExpenseForm.css */
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  li button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  li button:hover {
+    background-color: #c0392b;
+  }
+  /* ExpenseForm.css */
+  /* ... (other styles) */
+  
+  h2 {
+    color: #333;
+  }
+  
+  .total-expenses {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color:#333;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    width: 400px;
+  }
+  
+  .total-expenses:hover {
+    background-color: #c0392b;
+  }
+  
+  /* ... (other styles) */
+  /* ExpenseTracker.css */
+  
+  .dashboard-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .chart-container {
+    width: 70%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .chart-container canvas {
+    display: block;
+    margin: auto;
+  }
+  
+  .balance {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  /* Add styles to your ExpensesForm.css file */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+strong {
+  margin-right: 5px;
+}

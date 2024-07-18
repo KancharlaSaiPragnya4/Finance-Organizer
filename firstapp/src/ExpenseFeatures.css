@@ -1,0 +1,34 @@
+expense-features {
+    text-align: center; /* Center align the text */
+    margin: 20px;
+  }
+  
+  .feature-container {
+    display: flex; /* Display features side by side */
+    justify-content: space-around; /* Spread the features evenly horizontally */
+    align-items: center; /* Align features vertically */
+  }
+  h2 {
+    color: #FF5733; /* Change the font color to your preferred color */
+    font-size: 2.5rem; /* Increase the font size as needed */
+  }
+  
+  
+  .feature {
+    text-align: center;
+    width: 220px;
+    padding: 20px;
+  }
+  
+  .feature i {
+    font-size: 4rem; /* Increase the icon size */
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .feature p {
+    font-size: 1.2rem;
+  }
