@@ -1,6 +1,6 @@
 To run the application:
 1. Clone the Git repository:
-   `git clone https://github.com/KancharlaSaiPragnya4/Finance-Organizer.git`
+   `git clone https://github.com/KancharlaSaiPragnya4/Finance-Organize-Fullstackr.git`
 
 2. Navigate into the project directory:
    `cd Finance-Organizer`
